@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Navigation Bar */
+.navbar {
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar a {
+    padding: 8px 16px;
+    float: left;
+    color: #fff;
+}
+
+.navbar .right {
+    float: right;
+}
+
+/* Page Content */
+.content {
+    max-width: 1600px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    color: #000;
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    padding: 0.01em 16px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.header h6 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.header h6 span {
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Image Header */
+.image-header {
+    position: relative;
+    letter-spacing: 4px;
+}
+
+.image-header img {
+    width: 100%;
+    height: 100vh;
+}
+
+.image-header .bottom-left-display {
+    padding: 12px 24px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.image-header .bottom-left-display .first {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.image-header .bottom-left-display .jumbo {
+    color: #fff;
+    font-size: 64px;
+    margin: 10px 0;
+}
+
+.image-header .bottom-left-display h6 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.image-header .bottom-left-display h6 button {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    opacity: 0.60;
+}
+

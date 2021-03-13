@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band - Official Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://use.fontawesome.com/2206a4c471.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav"><a href="#home">HOME</a></li>
+            <li class="nav"><a href="#band">BAND</a></li>
+            <li class="nav"><a href="#tour">TOUR</a></li>
+            <li class="nav"><a href="#contact">CONTACT</a></li>
+            <li class="nav"><a href="#">MORE <i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+        </ul>
+    </nav>
+    
+    <div id="home" class="slideshow">
+     <img class="mySlides" src="images/band1.jpg" style="width:100%">
+     <img class="mySlides" src="images/band2.jpg" style="width:100%">
+     <img class="mySlides" src="images/band3.jpg" style="width:100%">
+    </div>
+    
+    <div class="container">
+       
+        <div id="band">
+            <h2>THE BAND</h2>
+            <p class="italic" style="opacity: 0.60;">We love music</p>
+            <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vero nihil expedita ut illum ullam temporibus debitis dolorem consequuntur. Asperiores, omnis! Iste enim aut cupiditate nulla cumque, ipsa, aliquid dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, blanditiis alias nulla culpa. Corporis libero aliquid, cum dolorem magni nesciunt, ducimus labore, reprehenderit eum quaerat nostrum harum unde, quod commodi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quam autem nihil, labore illum impedit nemo dignissimos, doloribus architecto quis quisquam doloremque reiciendis reprehenderit dolorem veniam dolore voluptas non, recusandae.</p>
+            <div class="lineup">
+                <div class="photo">
+                    <p>Kuroko Shirai</p>
+                    <img src="images/animegirlblack.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <p>Mikoto Misaka</p>
+                    <img src="images/animegirlblack.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <p>Index Librorium</p>
+                    <img src="images/animegirlblack.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div id="tour">
+            <h2>TOUR DATES</h2>
+            <p style="font-style: italic;">Remember to book your tickets!</p>
+            <div class="dates">
+                <div class="date">September <span>Sold out</span></div>
+                <div class="date">October <span>Sold out</span></div>
+                <div class="date">November <span>Available</span></div>
+            </div>
+            <div class="tiles">
+                <div>
+                 <img src="images/tokyo.jpg" alt="" style="width:100%">
+                 <p>
+                  <b class="black">New York</b><br />
+                  <b>Fri 27 Nov 2017</b><br />
+                  <b class="black">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b>
+                 </p>
+                </div>
+                <div>
+                 <img src="images/tokyo.jpg" alt="" style="width:100%">
+                 <p>
+                  <b class="black">Paris</b><br />
+                  <b>Sat 28 Nov 2017</b><br />
+                  <b class="black">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b>
+                 </p>
+                </div>
+                <div>
+                 <img src="images/tokyo.jpg" alt="" style="width:100%">
+                 <p>
+                  <b class="black">New York</b><br />
+                  <b>Sun 29 Nov 2016</b><br />
+                  <b class="black">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b>
+                 </p>
+                 </div>
+            </div>
+        </div>
+        
+        <div id="contact">
+            <h2>CONTACT</h2>
+            <p class="fan">Fan? Drop a note!</p>
+                 <div class="tough">
+                      <div class="tough1">
+                          <i class="fa fa-map-marker" aria-hidden="true"> Chicago, US</i>
+                          <i class="fa fa-phone" aria-hidden="true"> Phone:+00 151515</i>
+                          <i class="fa fa-envelope" aria-hidden="true"> Email:mail@mail.com</i>
+                      </div>
+                      <div class="tough2">
+                          <input class="name" type="text" name="name" placeholder="Name"> 
+                          <input class="email" type="text" name="email" placeholder="Email"> 
+                          <input class="message" type="text" name="message" placeholder="Message"> 
+                          <button>SEND</button>
+                      </div>  
+                 </div>
+                   
+                <iframe src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK&zoom=17&key=AIzaSyDgJ0UgtZVwN91UJ5uAQcjPXm3UWSLz7-8"></iframe>
+                
+                <div class="icons">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+                <p class="bottom">Powered by <a href="#">m3.css</a></p>
+        </div>
+        
+    </div>
+    
+   <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+       
+
+   </script>
+    
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

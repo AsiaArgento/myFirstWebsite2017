@@ -1,0 +1,262 @@
+/***** PARENT STYLES *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    background-color: #f1f1f1;
+}
+
+
+/***** NAVIGATION STYLES *****/
+
+#navigation {
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    letter-spacing: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+    z-index: 1;
+}
+
+#navigation .header {
+    padding: 8px 16px;
+    height: 54px;
+}
+
+#navigation .header .left {
+    float: left;
+    padding: 8px 16px;
+}
+
+#navigation .header .left a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navigation .header .left a:hover {
+    background-color: #757575;
+}
+
+#navigation .header .right {
+    float: right;
+    padding: 8px 16px;
+}
+
+#navigation .header .right a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navigation .header .right a:hover {
+    background-color: #757575;
+}
+
+
+/***** IMAGE STYLES *****/
+
+.mySlides {
+    display: none;
+}
+
+
+/***** ABOUT STYLES *****/
+
+#about {
+    width: 100%;
+    height: 450px;
+    float: left;
+    margin: 64px 0;
+}
+
+#about .about2 {
+    width: 80%;
+    margin: 64px auto;
+}
+
+#about .about2 h2 {
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#about .about2 h3 {
+    margin: 10px 0;
+}
+
+#about .about2 p {
+    
+}
+
+#about .about2 button {
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#about .about2 button:hover {
+    background: #757575;
+    cursor: pointer;
+}
+
+
+/***** PORTFOLIO STYLES *****/
+
+#portfolio {
+    width: 100%;
+    height: 900px;
+    float: left;
+    margin: 64px 0;
+}
+
+#portfolio .portfolio2 {
+    width: 80%;
+    margin: 64px auto;
+}
+
+#portfolio .portfolio2 .work {
+    width: 100%;
+    height: 250px;
+    margin: 25px 0;
+}
+
+#portfolio .portfolio2 .work h4 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    
+}
+
+#portfolio .portfolio2 .work .box {
+    width: 23%;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#portfolio .portfolio2 .work .box ul {
+    list-style: none;
+    height: 100%;
+    overflow: auto;
+}
+
+#portfolio .portfolio2 .work .box ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#portfolio .portfolio2 .work .box ul li a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#portfolio .portfolio2 .work .title {
+    margin-bottom: 10px;
+} 
+
+
+/***** PHOTO STYLES *****/
+
+#photos {
+    width: 100%;
+    height: 450px;
+    float: left;
+    margin: 64px 0;
+}
+
+#photos .photos2 {
+    width: 80%;
+    margin: 64px auto;
+}
+
+#photos .photos2 h1 {
+    
+}
+
+
+/***** BLOG STYLES *****/
+
+#blog {
+    width: 100%;
+    height: 450px;
+    float: left;
+    margin: 64px 0;
+}
+
+#blog .blog2 {
+    width: 80%;
+    margin: 64px auto;
+}
+
+#blog .blog2 h1 {
+    
+}
+
+
+/***** CONTACT STYLES *****/
+
+#contact {
+    width: 100%;
+    height: 450px;
+    float: left;
+    margin: 64px 0;
+}
+
+#contact .contact2 {
+    width: 80%;
+    margin: 64px auto;
+}
+
+#contact .contact2 i {
+    width: 49%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/***** MEDIA QUERIES *****/
+
+/*** NAVIGATION BAR ***/
+
+@media screen and (max-width: 775px) {
+    #navigation .header .left {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #navigation .header .left a {
+        width: 100%;
+        padding: 14px 25%;
+    }
+    
+    #navigation .header .right {
+        display: none;
+    }
+}
+
+/*** ABOUT PAGE ***/
+
+@media screen and (max-width: 642px) {
+    #about  {
+        overflow: auto;
+    }
+}
+
+/*** PORTFOLIO PAGE ***/
+
+@media screen and (max-width: 462px) {
+    #portfolio {
+        display: none;
+    }
+}
+
+
+

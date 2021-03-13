@@ -1,0 +1,301 @@
+/*** PARENT STYLES ***/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/*** MAIN NAVIGATION ***/
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    overflow: auto;
+    height: 46px;
+}
+
+ul li.nav {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+ul li a:hover {
+    background-color: #edeff2;
+    color: black;
+}
+
+ul li i.fa-search {
+    float: right;
+    color: #fff;
+    padding: 15.5px 24px;
+}
+
+ul li i.fa-search:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+/*** SLIDESHOW STYLES ***/
+
+.mySlides {
+    display: none;
+}
+
+/**** CONTAINER STYLES ****/
+
+/*** BAND STYLES ***/
+
+#band {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    float: left;
+}
+
+#band h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+#band > p {
+    margin: 20px auto;
+    width: 75%;
+    text-align: center;
+}
+
+#band .italic {
+    font-style: italic;
+}
+
+.lineup {
+    padding-top: 25px; 
+}
+
+.lineup .photo {
+    width: 33.33%;
+    float: left;
+    margin-bottom: 64px;
+}
+
+.lineup .photo img {
+    width: 60%;
+}
+
+/*** TOUR STYLES ***/
+
+#tour {
+    float: left;
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    background-color: #000;
+    
+}
+
+#tour h2 {
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 30px;
+    margin: 10px 0;
+    margin-top: 64px;
+    text-align: center;
+}
+
+#tour p {
+    color: #fff;
+    text-align: center;
+    opacity: 0.60;
+    margin: 15px 0;
+}
+
+#tour .dates {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#tour .dates .date {
+    padding: 8px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+#tour .dates .date span {
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 4px 8px;
+}
+
+#tour .dates .date:nth-child(3) span {
+    background-color: green;
+}
+
+#tour .tiles {
+    margin: 15px 0;
+}
+
+#tour .tiles div {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 64px;
+    margin-left: 10%;
+    background-color: #fff;
+}
+
+#tour .tiles div b {
+    color: #757575;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    
+}
+
+#tour .tiles div .black {
+    color: #000;
+}
+
+/*** CONTACT STYLES ***/
+
+#contact {
+    width: 100%;
+    float: left;
+    margin-bottom: 64px;
+}
+
+#contact h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#contact .fan {
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#contact .tough {
+    width: 100%;
+    margin-top: 24px;
+    float: left;
+}
+
+#contact .tough .tough1 {
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 16px;
+    float: left;
+}
+
+#contact .tough .tough1 i {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact .tough .tough2 {
+    width: 50%;
+    margin-bottom: 16px;
+    float: right;
+}
+
+#contact .tough .tough2 .name {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact .tough .tough2 .email {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact .tough .tough2 .message {
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact .tough .tough2 button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+#contact .tough .tough2 button:hover {
+    background-color: #c7c7c7;
+    color: #000;
+    cursor: pointer;
+}
+
+#contact iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#contact .icons {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+#contact .icons i {
+    font-size: 24px;
+    padding: 5px;
+}
+
+#contact .icons i:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+#contact .bottom {
+    text-align: center;
+}
+
+#contact .bottom a {
+    color: #757575;
+}
+
+#contact .bottom a:hover {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+

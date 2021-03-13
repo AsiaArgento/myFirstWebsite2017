@@ -1,0 +1,202 @@
+/***** PARENT STYLES *****/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    letter-spacing: 1.5;
+}
+
+
+/***** NAVIGATION STYLES *****/
+
+#home {
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    letter-spacing: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+    z-index: 1;
+}
+
+#home .navigation {
+    padding: 8px 16px;
+    height: 54px;
+    
+}
+
+/*** LEFT NAVIGATION STYLES ***/
+
+#home .navigation .left {
+    float: left;
+    padding: 8px 16px;
+}
+
+#home .navigation .left a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#home .navigation .left a:hover {
+    background-color: #c7c7c7;
+}
+
+/*** RIGHT NAVIGATION STYLES ***/
+
+#home .navigation .right {
+    float: right;
+    padding: 8px 16px;
+}
+
+#home .navigation .right a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#home .navigation .right a:hover {
+    background-color: #c7c7c7;
+}
+
+
+/***** IMAGE STYLES *****/
+
+.image {
+    
+}
+
+.image .center {
+    margin-top: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 4px;
+}
+
+.image .center h1 strong {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.image .center h1 span {
+    padding: 8px 16px;
+    font-size: 36px;
+    color: #f1f1f1;
+}
+
+
+/***** PROJECTS STYLES *****/
+
+#projects {
+    
+}
+
+#projects .content {
+    width: 100%;
+    height: 1742px;
+    padding: 8px 16px;
+    
+}
+
+#projects .content .heading {
+    padding: 32px 16px;
+}
+
+#projects .content .heading h3 {
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+#projects .content .images1 {
+    padding: 0 8px;
+}
+
+#projects .content .images1 .firstrow {
+    padding: 0 8px;
+    width: 24.99%;
+    margin-bottom: 16px;
+    float: left;
+}
+
+
+/***** ABOUT STYLES *****/
+
+#about {
+    float: left;
+}
+
+#about .about1 {
+    padding: 32px 16px;
+}
+
+#about .about1 h3 {
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+}
+
+#about .about1 p {
+    margin: 15px 0;
+}
+
+#about .faces {
+    width: 100%;
+    filter: grayscale(75%);
+    padding: 0 8px;
+    height: 431px;
+}
+
+#about .faces div {
+    width: 24.99%;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+#about .faces div img {
+    margin-bottom: -5px;
+}
+
+#about .faces div h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+#about .faces div .opacity {
+    opacity: 0.60;
+    margin: 15px 0;
+}
+
+#about .faces div p:nth-child(4) {
+    margin: 15px 0;
+}
+
+#about .faces div button {
+    background-color: #f1f1f1;
+    color: #000;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+#about .faces div button:hover {
+    background-color: #c7c7c7;
+    cursor: pointer;
+}
+
+
+
+
